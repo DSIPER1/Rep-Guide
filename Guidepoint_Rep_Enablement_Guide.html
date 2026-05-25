@@ -6,11 +6,11 @@
 <title>Guidepoint — AI Security Rep Enablement</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1b2d;color:#f0f4f8;min-height:100vh;padding:32px 20px 80px;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0F0F59;color:#f0f4f8;min-height:100vh;padding:32px 20px 80px;}
 .wrap{max-width:960px;margin:0 auto;}
 
 /* ── typography ── */
-.eyebrow{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#378ADD;margin-bottom:6px;}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#3333FF;margin-bottom:6px;}
 h1{font-size:30px;font-weight:700;line-height:1.25;margin-bottom:8px;}
 .sub{font-size:15px;color:#8fa3bd;line-height:1.65;margin-bottom:28px;max-width:560px;}
 h2{font-size:18px;font-weight:600;margin-bottom:10px;line-height:1.35;}
@@ -21,28 +21,28 @@ p strong{color:#f0f4f8;font-weight:500;}
 /* ── landing — rep picker ── */
 .rep-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:28px;}
 .rep-card{padding:24px 18px 20px;border:0.5px solid rgba(255,255,255,.08);border-radius:10px;background:rgba(255,255,255,.02);cursor:pointer;transition:border-color .15s,background .15s,transform .12s;-webkit-user-select:none;user-select:none;}
-.rep-card:hover{background:rgba(55,138,221,.05);border-color:rgba(55,138,221,.28);transform:translateY(-2px);}
+.rep-card:hover{background:rgba(51,51,255,.05);border-color:rgba(51,51,255,.28);transform:translateY(-2px);}
 .rep-icon{font-size:22px;margin-bottom:12px;line-height:1;}
 .rep-name{font-size:15px;font-weight:600;margin-bottom:6px;line-height:1.35;}
 .rep-quote{font-size:13px;color:#4e6a88;line-height:1.55;font-style:italic;margin-bottom:8px;}
 .rep-pill{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:20px;}
-.pill-a{background:rgba(55,138,221,.15);color:#7bb3ff;}
+.pill-a{background:rgba(51,51,255,.15);color:#5DC4F2;}
 .pill-b{background:rgba(217,119,6,.12);color:#fbbf24;}
 .pill-c{background:rgba(13,148,136,.13);color:#5eead4;}
-.landing-footer{font-size:12px;color:#2a4a68;padding-top:16px;border-top:0.5px solid rgba(255,255,255,.05);}
+.landing-footer{font-size:12px;color:#3a3a82;padding-top:16px;border-top:0.5px solid rgba(255,255,255,.05);}
 
 /* ── back bar ── */
 .back-bar{display:flex;align-items:center;gap:8px;margin-bottom:24px;}
 .back-btn{background:none;border:none;font-size:14px;color:#4e6a88;cursor:pointer;font-family:inherit;padding:0;}
 .back-btn:hover{color:#8fa3bd;}
-.back-sep{color:#1e3a5f;font-size:13px;}
-.back-crumb{font-size:14px;color:#378ADD;}
+.back-sep{color:#1a1a6e;font-size:13px;}
+.back-crumb{font-size:14px;color:#3333FF;}
 
 /* ── chapter nav ── */
 .chapter-nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:28px;}
 .ch-btn{background:none;border:0.5px solid rgba(255,255,255,.08);border-radius:5px;font-size:13px;font-weight:500;color:#4e6a88;padding:5px 12px;cursor:pointer;font-family:inherit;transition:border-color .12s,color .12s,background .12s;}
 .ch-btn:hover{color:#8fa3bd;border-color:rgba(255,255,255,.16);}
-.ch-btn.active{border-color:#378ADD;color:#f0f4f8;background:rgba(55,138,221,.08);}
+.ch-btn.active{border-color:#3333FF;color:#f0f4f8;background:rgba(51,51,255,.08);}
 
 /* ── content sections ── */
 .section{display:none;}
@@ -51,13 +51,13 @@ p strong{color:#f0f4f8;font-weight:500;}
 /* ── cards ── */
 .card{border:0.5px solid rgba(255,255,255,.07);border-radius:8px;overflow:hidden;margin-bottom:10px;}
 .card-h{padding:10px 14px;background:rgba(255,255,255,.03);border-bottom:0.5px solid rgba(255,255,255,.07);display:flex;align-items:center;gap:8px;}
-.card-n{font-size:11px;color:#378ADD;font-family:monospace;}
+.card-n{font-size:11px;color:#3333FF;font-family:monospace;}
 .card-l{font-size:14px;font-weight:600;}
 .card-b{padding:14px 15px;}
 
 /* ── callout boxes ── */
 .callout{padding:12px 14px;border-radius:6px;font-size:15px;line-height:1.7;margin-bottom:10px;}
-.callout-blue{background:rgba(55,138,221,.07);border:0.5px solid rgba(55,138,221,.18);color:#f0f4f8;}
+.callout-blue{background:rgba(51,51,255,.07);border:0.5px solid rgba(51,51,255,.18);color:#f0f4f8;}
 .callout-amber{background:rgba(217,119,6,.07);border:0.5px solid rgba(217,119,6,.2);color:#f0f4f8;}
 .callout-teal{background:rgba(13,148,136,.07);border:0.5px solid rgba(13,148,136,.2);color:#f0f4f8;}
 .callout-muted{background:rgba(255,255,255,.03);border:0.5px solid rgba(255,255,255,.08);color:#8fa3bd;font-size:13px;line-height:1.6;}
@@ -65,18 +65,18 @@ p strong{color:#f0f4f8;font-weight:500;}
 .callout strong{color:#f0f4f8;font-weight:500;}
 
 /* ── quote box ── */
-.q-box{padding:11px 13px;background:rgba(55,138,221,.07);border:0.5px solid rgba(55,138,221,.15);border-radius:6px;font-size:15px;color:#f0f4f8;font-style:italic;margin-bottom:8px;line-height:1.65;}
+.q-box{padding:11px 13px;background:rgba(51,51,255,.07);border:0.5px solid rgba(51,51,255,.15);border-radius:6px;font-size:15px;color:#f0f4f8;font-style:italic;margin-bottom:8px;line-height:1.65;}
 
 /* ── stat row ── */
 .stat-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;}
 .stat-box{padding:14px;background:rgba(255,255,255,.03);border:0.5px solid rgba(255,255,255,.08);border-radius:8px;}
-.stat-n{font-size:22px;font-weight:700;color:#378ADD;margin-bottom:4px;}
+.stat-n{font-size:22px;font-weight:700;color:#3333FF;margin-bottom:4px;}
 .stat-l{font-size:13px;color:#4e6a88;line-height:1.5;}
 
 /* ── arc steps ── */
 .arc{display:flex;flex-direction:column;gap:8px;margin-bottom:12px;}
 .arc-row{display:flex;gap:12px;align-items:flex-start;}
-.arc-step{width:28px;height:28px;border-radius:50%;background:rgba(55,138,221,.15);border:0.5px solid rgba(55,138,221,.3);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#378ADD;flex-shrink:0;margin-top:1px;}
+.arc-step{width:28px;height:28px;border-radius:50%;background:rgba(51,51,255,.15);border:0.5px solid rgba(51,51,255,.3);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#3333FF;flex-shrink:0;margin-top:1px;}
 .arc-body{flex:1;}
 .arc-title{font-size:15px;font-weight:600;margin-bottom:3px;}
 .arc-sub{font-size:14px;color:#4e6a88;line-height:1.55;}
@@ -96,19 +96,19 @@ p strong{color:#f0f4f8;font-weight:500;}
 .map-cell{padding:10px;background:rgba(255,255,255,.03);border:0.5px solid rgba(255,255,255,.07);border-radius:6px;line-height:1.6;color:#8fa3bd;word-wrap:break-word;overflow-wrap:break-word;}
 .map-cell strong{color:#f0f4f8;font-weight:500;display:block;margin-bottom:3px;}
 .map-buyer{display:block;font-size:10px;color:#4e6a88;margin-bottom:5px;font-style:italic;letter-spacing:.02em;}
-.map-cell.gp{border-color:rgba(55,138,221,.25);background:rgba(55,138,221,.06);}
-.map-cell.gp strong{color:#7bb3ff;}
+.map-cell.gp{border-color:rgba(51,51,255,.25);background:rgba(51,51,255,.06);}
+.map-cell.gp strong{color:#5DC4F2;}
 .map-row-stage3{border-left:2px solid rgba(251,191,36,.3);}
 .map-cat{font-size:11px;color:#8fa3bd;line-height:1.55;}
 .vpills{display:flex;flex-wrap:wrap;gap:4px;margin-top:2px;}
 .vp{display:inline-block;font-size:10px;padding:2px 8px;border-radius:3px;white-space:nowrap;line-height:1.5;}
-.vp.e{background:rgba(43,127,255,.12);color:#7bb3ff;border:0.5px solid rgba(43,127,255,.2);}
+.vp.e{background:rgba(51,51,255,.12);color:#5DC4F2;border:0.5px solid rgba(51,51,255,.2);}
 .vp.c{background:rgba(255,255,255,.03);color:#6a8299;border:0.5px dashed rgba(255,255,255,.2);}
 
 /* ── stage pills ── */
 .stage-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px;}
 .stage-box{padding:14px;border:0.5px solid rgba(255,255,255,.07);border-radius:8px;background:rgba(255,255,255,.02);}
-.stage-label{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#378ADD;margin-bottom:6px;}
+.stage-label{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#3333FF;margin-bottom:6px;}
 .stage-title{font-size:15px;font-weight:600;margin-bottom:6px;}
 .stage-body{font-size:14px;color:#4e6a88;line-height:1.55;}
 
@@ -125,7 +125,7 @@ p strong{color:#f0f4f8;font-weight:500;}
 .inc-body{font-size:14px;color:#8fa3bd;line-height:1.6;margin-bottom:6px;}
 .inc-tags{display:flex;gap:6px;flex-wrap:wrap;}
 .inc-tag{font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;background:rgba(255,255,255,.06);color:#8fa3bd;}
-.inc-tag-s1{background:rgba(55,138,221,.12);color:#7bb3ff;}
+.inc-tag-s1{background:rgba(51,51,255,.12);color:#5DC4F2;}
 .inc-tag-s2{background:rgba(217,119,6,.12);color:#fbbf24;}
 .inc-tag-s3{background:rgba(139,92,246,.12);color:#c4b5fd;}
 
@@ -144,19 +144,19 @@ p strong{color:#f0f4f8;font-weight:500;}
 
 /* ── dependency rows — rocks section only ── */
 .dep-block{display:flex;flex-direction:column;gap:0;}
-.dep-row{display:grid;grid-template-columns:auto 1fr;gap:0;border-top:0.5px solid rgba(55,138,221,.12);}
+.dep-row{display:grid;grid-template-columns:auto 1fr;gap:0;border-top:0.5px solid rgba(51,51,255,.12);}
 .dep-row:first-child{border-top:none;}
-.dep-lbl{padding:9px 12px 9px 0;font-size:12px;font-weight:600;color:#378ADD;white-space:nowrap;line-height:1.5;min-width:80px;}
+.dep-lbl{padding:9px 12px 9px 0;font-size:12px;font-weight:600;color:#3333FF;white-space:nowrap;line-height:1.5;min-width:80px;}
 .dep-txt{padding:9px 0;font-size:13px;color:#bccbd8;line-height:1.6;}
 
 /* ── footnote ── */
-.footnote{font-size:12px;color:#2a4a68;margin-top:6px;line-height:1.55;}
+.footnote{font-size:12px;color:#3a3a82;margin-top:6px;line-height:1.55;}
 
 /* ── global nav — persistent, always rendered ── */
 .global-nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:24px;padding-bottom:16px;border-bottom:0.5px solid rgba(255,255,255,.06);}
 .gn-btn{background:none;border:0.5px solid rgba(255,255,255,.07);border-radius:5px;font-size:12px;font-weight:500;color:#4e6a88;padding:5px 12px;cursor:pointer;font-family:inherit;white-space:nowrap;}
 .gn-btn:hover{color:#8fa3bd;border-color:rgba(255,255,255,.14);}
-.gn-btn.gn-active{border-color:#378ADD;color:#f0f4f8;background:rgba(55,138,221,.08);}
+.gn-btn.gn-active{border-color:#3333FF;color:#f0f4f8;background:rgba(51,51,255,.08);}
 .gn-btn.gn-mythos{border-color:rgba(139,92,246,.3);color:#c4b5fd;}
 .gn-btn.gn-mythos:hover{background:rgba(139,92,246,.08);}
 .gn-btn.gn-mythos.gn-active{border-color:#8b5cf6;background:rgba(139,92,246,.12);color:#e9d5ff;}
@@ -167,7 +167,7 @@ p strong{color:#f0f4f8;font-weight:500;}
 /* ── veracity tags ── */
 .vtag{display:inline-block;font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.04em;}
 .vtag-ir{background:rgba(13,148,136,.18);color:#5eead4;border:0.5px solid rgba(13,148,136,.35);}
-.vtag-pd{background:rgba(55,138,221,.14);color:#93c5fd;border:0.5px solid rgba(55,138,221,.3);}
+.vtag-pd{background:rgba(51,51,255,.14);color:#5DC4F2;border:0.5px solid rgba(51,51,255,.3);}
 .vtag-rp{background:rgba(255,255,255,.06);color:#6a8299;border:0.5px solid rgba(255,255,255,.14);}
 
 /* ── mythos section ── */
@@ -805,25 +805,25 @@ function renderMythos() {
     <h1>⚠ Mythos</h1>
     <p style="color:#8fa3bd;font-size:15px;margin-bottom:20px;">Your clients are raising this. When a security leader starts talking about an AI model the way they once talked about a nation-state threat, the conversation has moved. Be prepared before it comes up. The goal is to respond analytically, not reactively, not dismissively.</p>
 
-    <h2>What is reported, what is verified, what is not in dispute</h2>
+    <h2>What is reported, what is now corroborated, what is not in dispute</h2>
     <div class="mythos-grid">
       <div class="mythos-row">
         <div class="mythos-lbl">What is reported</div>
         <div class="mythos-val">Mythos is described as an Anthropic AI model with advanced vulnerability discovery and exploit development capabilities. Reported figures: 72.4% exploit development success rate, thousands of previously unknown vulnerabilities surfaced. Reports of unauthorized access through a third-party vendor environment. U.S. government officials briefed ahead of public disclosure.</div>
       </div>
       <div class="mythos-row">
-        <div class="mythos-lbl">What is verified</div>
-        <div class="mythos-val">The specific performance figures have not been independently confirmed. Primary sources are briefings not yet publicly detailed. Anthropic has acknowledged the program exists. The unauthorized access claim has not been attributed to a named IR investigation as of May 2026.</div>
+        <div class="mythos-lbl">What is now corroborated</div>
+        <div class="mythos-val">Anthropic's May 22, 2026 Project Glasswing update is the first independent corroboration of the volume claims. Named partners with skin in the game have published numbers. Cloudflare reports 2,000 bugs found across critical-path systems, 400 of them high- or critical-severity, with a false positive rate their team considers better than human testers. Mozilla found and fixed 271 vulnerabilities in Firefox 150 while testing the model, more than ten times what they found in the prior version. Across roughly 50 Glasswing partners, more than 10,000 high- or critical-severity vulnerabilities have been surfaced. The UK AI Security Institute reports it is the first model to solve both of its cyber ranges end to end. The specific 72.4% exploit-success figure has not been re-published. Treat that single number as directional. The aggregate volume claim is no longer directional. It is sourced.</div>
       </div>
       <div class="mythos-row">
         <div class="mythos-lbl">Not in dispute</div>
-        <div class="mythos-val">AI models are being applied to offensive security research. This is happening across multiple labs, not only Anthropic. The capability trajectory, models that can identify and exploit vulnerabilities, is the directionally correct concern regardless of whether the specific Mythos figures are accurate. The threat is structural, not headline-dependent.</div>
+        <div class="mythos-val">AI models are being applied to offensive security research across multiple labs. The capability trajectory is the directionally correct concern regardless of any single figure. This is not an Anthropic-only story. OpenAI launched Daybreak on May 11, 2026, applying GPT-5.5-Cyber and Codex Security against the same problem with 20+ named security partners including Cloudflare, Cisco, CrowdStrike, and Palo Alto Networks. HackerOne paused its internet bug bounty program citing the same volume-versus-patching mismatch. The capability class, the disclosure problem, and the defender-capacity bottleneck are now industry-wide. The May 22 Glasswing update adds one further point that is no longer in dispute: the bottleneck has moved. Anthropic's own framing is that discovery used to be the constraint. Verification, disclosure, and patching are now the constraint. Open-source maintainers have asked Anthropic to slow disclosures because they cannot design patches fast enough. The threat is structural. The defensive architecture has not changed. Runtime behavioral controls stop an AI-generated exploit the same way they stop any other, because the technique does not change even when the vulnerability does.</div>
       </div>
     </div>
 
     <div class="div"></div>
     <h2>The Sophos numbers: use these, not the Mythos figures</h2>
-    <p style="color:#8fa3bd;font-size:14px;margin-bottom:12px;">The Sophos Active Adversary Report 2026 is based on 661 IR cases. These are verified. They do not require the Mythos claim to land.</p>
+    <p style="color:#8fa3bd;font-size:14px;margin-bottom:12px;">The Sophos Active Adversary Report 2026 is based on 661 IR cases. These are verified field data, independent of the Mythos discussion. As of the May 22 Glasswing update, the discovery-volume claims are also independently sourced. Either anchor lands a conversation about velocity. The Sophos numbers land it without referencing AI at all.</p>
     <div class="mythos-stat-row">
       <div class="mythos-stat"><div class="mythos-stat-n">661</div><div class="mythos-stat-l">IR cases analyzed. The largest Sophos Active Adversary dataset to date.</div></div>
       <div class="mythos-stat"><div class="mythos-stat-n">2h 7m</div><div class="mythos-stat-l">Median attacker dwell time in 2025. Down from 24 hours in 2022. AI-assisted attack velocity is observable in the data, not theoretical.</div></div>
@@ -832,8 +832,8 @@ function renderMythos() {
 
     <div class="div"></div>
     <h2>What to say when a client raises it</h2>
-    <div class="q-box">"The capability trajectory is the right concern, whether or not the specific figures are exactly right. What we are seeing in verified IR data is that attacker dwell time has compressed from 24 hours to just over two hours in three years. AI-assisted reconnaissance and exploitation is happening at scale. The Mythos question is a good frame for a conversation about whether your detection and response posture is calibrated for that velocity, not for a world where attackers need weeks."</div>
-    <div class="callout callout-muted">Do not confirm or deny the specific figures. Redirect to verified IR data. The goal is to look analytically credible, not to adjudicate a claim you cannot independently verify. The rep who can hold the uncertainty without either amplifying or dismissing the story earns the room.</div>`;
+    <div class="q-box">"The capability is no longer a briefing claim. As of Anthropic's May 22 Glasswing update, Cloudflare has published 2,000 findings and Mozilla a ten-times increase in Firefox vulnerabilities found. The discovery side is settled. What we are also seeing in verified Sophos IR data is that attacker dwell time has compressed from 24 hours to just over two hours in three years. The more useful question for your environment is whether your detection and response posture is calibrated for that velocity, and whether your patch cycle assumes you are the bottleneck or your vendors are."</div>
+    <div class="callout callout-muted">Hold the 72.4% number loosely. Anchor on the volume corroboration and on the Sophos data. The rep who can hold the uncertainty on the single figure, while citing what is now sourced, earns the room. Redirect every conversation to detection posture and patch capacity. That is where the client actually has decisions to make.</div>`;
 }
 
 function renderFieldCard() {
